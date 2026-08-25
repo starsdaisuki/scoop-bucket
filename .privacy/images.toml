@@ -1,0 +1,3 @@
+version = 1
+
+# This repository publishes manifests only; it contains no image assets.
