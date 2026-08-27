@@ -5,11 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/starsdaisuki/scoop-bucket/releases/download/starpaper-1.0.1/starpaper-1.0.1-x64.zip",
+            "url": "https://github.com/starsdaisuki/starpaper-win/releases/download/v1.0.1/starpaper-1.0.1-x64.zip",
             "hash": "6f315287c32e1b904cc546a2b079e0e0438f25474e1d0aa7a004c5268cdb4797"
         },
         "arm64": {
-            "url": "https://github.com/starsdaisuki/scoop-bucket/releases/download/starpaper-1.0.1/starpaper-1.0.1-arm64.zip",
+            "url": "https://github.com/starsdaisuki/starpaper-win/releases/download/v1.0.1/starpaper-1.0.1-arm64.zip",
             "hash": "fca995f77d7bca2670538d5de72cf3df1c2087a74691ae096ddb9c261081b44d"
         }
     },
@@ -25,16 +25,16 @@
         "Settings live in HKCU\\Software\\StarPaper and are kept across updates. Remove that key by hand if you want a clean slate after uninstalling."
     ],
     "checkver": {
-        "github": "https://github.com/starsdaisuki/scoop-bucket",
-        "regex": "starpaper-([\\d.]+)"
+        "github": "https://github.com/starsdaisuki/starpaper-win",
+        "regex": "v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/starsdaisuki/scoop-bucket/releases/download/starpaper-$version/starpaper-$version-x64.zip"
+                "url": "https://github.com/starsdaisuki/starpaper-win/releases/download/v$version/starpaper-$version-x64.zip"
             },
             "arm64": {
-                "url": "https://github.com/starsdaisuki/scoop-bucket/releases/download/starpaper-$version/starpaper-$version-arm64.zip"
+                "url": "https://github.com/starsdaisuki/starpaper-win/releases/download/v$version/starpaper-$version-arm64.zip"
             }
         }
     }
